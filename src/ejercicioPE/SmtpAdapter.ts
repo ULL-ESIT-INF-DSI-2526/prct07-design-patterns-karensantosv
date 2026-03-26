@@ -108,4 +108,5 @@ export class SmtpAdapter implements EmailService {
     filter(status: EmailStatus): EmailResult[] {
         return this.resultadoCorreosEnviados.filter((el) => el.status === status);
     }
+    
 }
