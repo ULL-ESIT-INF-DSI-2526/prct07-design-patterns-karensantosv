@@ -7,7 +7,7 @@
     "start": "tsc-watch --onSuccess \"node dist/ejercicio-1/exportDocuments.js\"",
     "docs": "typedoc",
     "test": "vitest run",
-    "coverage": "vitest run --coverage --coverage.include=src/*/* --coverage.exclude=src/ejercicio3-5/**",
+    "coverage": "vitest run --coverage --coverage.include=src/*/* --coverage.exclude=src/ejercicioPE/Legacy*",
     "ej1": "tsc-watch --onSuccess \"node dist/ejercicio-2/tablepresente.js\""
   },
   "repository": {
